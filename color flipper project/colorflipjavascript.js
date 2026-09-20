@@ -1,6 +1,6 @@
 let button = document.getElementById("btn");
 let color = document.getElementById("color");
-let colors = ["red","aquamarine","magenda","purple","pink","yellow","orange","lightcoral","lightgreen","lightcyan","lightgrey","lightblue","lightsalmon","lightslategray","olivedrab","green"]
+let colors = ["red","aquamarine","purple","pink","yellow","orange","lightcoral","lightgreen","lightcyan","lightgrey","lightblue","lightsalmon","lightslategray","olivedrab"]
 
 button.addEventListener("click",function(){ 
   let randomValue = Math.floor(Math.random() * 16)
